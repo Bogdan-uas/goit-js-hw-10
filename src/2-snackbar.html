@@ -11,7 +11,23 @@
     <h1 class="main-heading">Snackbar</h1>
     <a class="back-link" href="./index.html">Go back</a>
 
+    <main class="snackbar-main">
+      <form class="form">
+        <label for="snackbar-input" class="snackbar-label">Delay (ms)</label>
+          <input class="snackbar-input" id="snackbar-input" type="number" name="delay" required />
+      
+        <fieldset class="fieldset">
+          <legend class="legend">State</legend>
+            <input class="snackbar-radiobox" id="snackbar-radiobox" type="radio" name="state" value="fulfilled" required />
+            <label for="snackbar-radiobox" class="radiobox-label">Fulfilled</label>
 
+            <input class="snackbar-radiobox radiobox2" id="snackbar-radiobox" type="radio" name="state" value="rejected" required />
+            <label for="snackbar-radiobox" class="radiobox-label">Rejected</label>
+        </fieldset>
+      
+        <button class="snackbar-button" type="submit">Create notification</button>
+      </form>
+    </main>
 
     <script type="module" src="./js/2-snackbar.js" defer></script>
   </body>

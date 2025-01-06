@@ -1,0 +1,114 @@
+.snackbar-main {
+    margin-top: 32px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.fieldset {
+    border-radius: 4px;
+    padding-left: 48px;
+    padding-top: 24px;
+    padding-bottom: 8px;
+    padding-right: 48px;
+    height: 44.4px;
+    width: 262.4px;
+    border: 1px solid #808080;
+    transition: 500ms ease-in-out;
+    margin: 0;
+}
+
+.fieldset:hover {
+    border: 1px solid #000;
+}
+
+.snackbar-input {
+    border: 1px solid #808080;
+    border-radius: 4px;
+    width: 326.4px;
+    height: 22.4px;
+    padding: 8px 16px;
+    margin-bottom: 16px;
+    transition: 500ms ease-in-out;
+}
+
+.snackbar-input:hover {
+    border: 1px solid #000;
+}
+
+.snackbar-input:focus {
+    border: 1px solid #4e75ff;
+}
+
+.snackbar-label {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.snackbar-radiobox {
+    margin: 0;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #757575;
+    transition: 500ms ease-in-out;
+}
+
+.snackbar-radiobox:hover {
+    border: 1px solid #000;
+}
+
+.snackbar-radiobox:checked {
+    color: #4e75ff;
+    border: 1px solid #4e75ff;
+}
+
+.radiobox2 {
+    margin-left: 48px;
+}
+
+.legend {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+}
+
+.radiobox-label {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #2e2f42;
+    margin-left: 8px;
+}
+
+.snackbar-button {
+    border-radius: 8px;
+    padding: 8px 16px;
+    width: 360px;
+    height: 40px;
+    background-color: #4e75ff;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    border: none;
+    margin-top: 24px;
+    transition: 500ms ease-in-out;
+}
+
+.snackbar-button:hover {
+    background-color: #6c8cff;
+}
