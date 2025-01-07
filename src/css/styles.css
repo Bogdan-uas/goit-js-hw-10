@@ -119,4 +119,5 @@ body {
 .sikret-baton {
     margin-top: 600px;
     background-color: red;
+    border-radius: 8px;
 }
